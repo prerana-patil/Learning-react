@@ -1,0 +1,188 @@
+.authBox{
+  width: 800px;
+  overflow: hidden;
+  margin: 80px auto 30px;
+}
+.leftBox{
+  width: 360px;
+  height: 478px;
+  float: left;
+  background-color: royalblue;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+
+.style1{
+  font-weight: bold;
+}
+.style1{
+  font-size: 28px ;
+  position: relative;
+  color: white;
+  top: 90px;
+  left: 50px;
+  text-justify: auto;
+  margin: auto;
+}
+
+.line{
+  background-color: #FBFCFC ;
+  top: 100px;
+  left: -75px;
+  width: 90px;
+  height: 2px;
+  border-color : royalblue;
+  margin: auto;
+  position: relative;
+
+}
+.style2{
+  font-size: 17px ;
+  position: relative;
+  color:white;
+  top: 150px ;
+  left: 30px;
+  text-justify: center;
+  margin: auto;
+}
+
+.btnAuth1{
+  width: 100px;
+  height: 32px;
+  text-align: center;
+  color: #ffffff;
+  line-height: 30px;
+  background-color: royalblue;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+  top: 150px;
+  left: -100px;
+  position: relative;
+}
+
+
+.rightBox{
+  width: 350px;
+  height: 478px;
+  float: right;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.box{
+  width: 380px;
+  height: 415px;
+  margin: 32px auto;
+}
+
+.titleAuth{
+  position: relative;
+  top: 50px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  left: -70px;
+}
+
+.line1{
+  background-color: royalblue;
+  top: 65px;
+  width: 35px;
+  height: 2px;
+  border-color : royalblue;
+  margin: auto;
+  position: relative;
+  left: -70px;
+  }
+
+.inputBox1{
+  width: 300px;
+  height: 42px;
+  border-bottom: 3px solid #d8d8d8;
+  margin-bottom: 10px;
+  position: relative;
+  top: 100px;
+  left: -30px;
+}
+
+.inputBox2{
+  width: 300px;
+  height: 42px;
+  border-bottom: 3px solid #d8d8d8 ;
+  margin-bottom: 10px;
+  position: relative;
+  top: 120px;
+  left: -30px;
+}
+
+.inputS{
+  width:100% ;
+  height: 98%;
+  font-size: 14px;
+  color: #37353f;
+  text-indent: 10px;
+  border: 0;
+  outline: none;
+  
+}
+
+.btnAuth{
+  width: 200px;
+  height: 47px;
+  color: #ffffff;
+  background-color: royalblue;
+  text-align: center;
+  line-height: 47px;
+  border-radius: 16px;
+  margin: auto;
+  margin-top: 50px;
+  top: 150px;
+  position: relative;
+  left: -70px;
+}
+
+.diamond{
+  width: 70px;
+  height: 80px;
+  position: relative;
+  top: -300px;
+  left: 258px;
+  background-color: white;
+  transform: translate(120px -50%);
+  transform: rotate(.125turn);
+  transform-origin: 0 100%;
+  border: 35px solid #E5E7E9 ;
+  border-radius: 50px;
+}
+
+.circle{
+    width: 50px;
+    height: 80px;
+    border-radius: 48%;
+    border: 29px solid white;
+    border-right: 80px solid white;
+    position: absolute;
+    top: 385px;
+    left: 650px;
+    background-color: royalblue;
+
+}
+
+
+@media screen and (max-width:799px){
+	.authBox{
+		width: 100%;
+	}
+	.leftBox{
+		display: none;
+	}
+	.rightBox{
+    width: 100%;
+    float: initial;
+    border: 0;
+  }
+}
