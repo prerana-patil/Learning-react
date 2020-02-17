@@ -5,6 +5,7 @@ class loginContainer extends React.Component{
     constructor(){
     super();
      this.loginEmailPlaceholder = "Enter Email...";
+     this.loginPasswordPlaceholder = 'Enter Password...';
     }
 
     render() {
@@ -28,7 +29,7 @@ class loginContainer extends React.Component{
                         <input className={'inputS'} type={'email'} placeholder={this.loginEmailPlaceholder} />
                     </div>
                     <div className={'inputBox2'}>
-                        <input className={'inputS'} type={'password'} placeholder={'Enter Password...'}/>
+                        <input className={'inputS'} type={'password'} placeholder={this.loginPasswordPlaceholder}/>
                     </div>
                     <div className={'btnAuth'}> Login </div>
                     <div className={'diamond'}></div>
